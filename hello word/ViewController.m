@@ -16,9 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor redColor]];
+    [self setUpView];
     // Do any additional setup after loading the view, typically from a nib.
 }
+- (void)setUpView{
+    
+    NSLog(@"世界你好");
 
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
